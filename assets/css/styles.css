@@ -1,0 +1,53 @@
+html, body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+.testimonial-section {
+    height: 600px;
+    background-color: black;
+    width: 100%;
+}
+.testimonials {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    color: #D4D4D4;
+    width: 550px;
+    
+}
+.banner-image {
+    height: 100%;
+    display: block;
+    margin: auto;
+    opacity: .5;
+}
+.about {
+    background-color: white;
+    margin-top: 50px;
+}
+
+.about-services, .media {
+    margin-left: 100px;
+    margin-right: 100px;
+    min-height: 600px;
+}
+.contact {
+    height: 50px;
+    position: fixed;
+    bottom: 150px;
+    right: -50px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    transform: rotate(-90deg)
+}
+.navbar-brand {
+    margin-left: 200px;
+}
+.ml-auto {
+    margin-right: 200px;
+}
+.media {
+    height: 500px;
+    border: 1px solid black;
+}

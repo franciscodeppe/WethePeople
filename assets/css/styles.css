@@ -40,12 +40,7 @@ html, body {
     border-radius: 5px;
     transform: rotate(-90deg)
 }
-.navbar-brand {
-    margin-left: 200px;
-}
-.ml-auto {
-    margin-right: 200px;
-}
+
 .media {
     height: 500px;
     border: 1px solid black;

@@ -1,0 +1,122 @@
+.project-page {
+    position: absolute;
+    z-index: 5;
+    height: 100%;
+    width: 100vw;
+    right: 100vw;
+    overflow: hidden;
+    background: url("../media/background.png")
+}
+
+hr {
+    background-color: #444;
+    height: 1px;
+    margin: 0px 10px 25px 0px;
+}
+
+table {
+    font-family: 'Rokkitt', serif;
+    width: 100%;
+}
+
+.selected-project {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+    /* background-color: rgba(255, 255, 255, 0.88); */
+}
+
+.selected-project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.88);
+    border: 1px solid #D1D1D1;
+    color: #444;
+    border-radius: 2px;
+    padding: 20px;
+}
+.selected-project-container>row {
+    background-color: rgba(255, 255, 255, 0.88);;
+}
+
+.selected-project-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected-project-img>img {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 4px;
+}
+
+.selected-project-info {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    height: 30%;
+    width: 100%;
+}
+.related-project-container:hover {
+    cursor: pointer;
+}
+.related {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.related-work {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.related-project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    height: 350px;
+    width: 275px;
+    background-color: rgba(255, 255, 255, 0.88);
+    border: 1px solid #D1D1D1;
+    color: #444;
+    border-radius: 2px;
+}
+
+.related-project-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.related-project-img>img {
+    margin-top: 20px;
+    max-width: 100%;
+    max-height: 80%;
+    border-radius: 4px;
+}
+
+.related-project-info {
+    text-align: center;
+    height: 30%;
+    width: 100%;
+    background-color: #EDEDED;
+}

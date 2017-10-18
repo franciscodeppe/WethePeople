@@ -1,10 +1,11 @@
 /* 
 font-family: 'Lato', sans-serif;
 font-family: 'Quicksand', sans-serif;
+font-family: 'Amita', cursive;
  */
 body,
 html {
-  color: black;
+  color: white;
   font-family: 'Quicksand', sans-serif;
   background: url("../media/Independence_Hall.jpg");
   background-size: cover;
@@ -41,7 +42,7 @@ a>hr {
 
 .logo-title {
   width: 100%;
-  font-family: 'Monoton', cursive;
+  font-family: 'Amita', cursive;
   font-size: 20px;
   margin-bottom: 25px;
   margin-top: 10px;

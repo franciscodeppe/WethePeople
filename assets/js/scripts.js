@@ -106,12 +106,12 @@ function background(item) {
     })
 }
 
-function projectPopulate(i) {
+function servicesPopulate(i) {
     var projectContainer = "<div class='item " + work[i].id + "'>" +
-        "<a href='#'><div id='" + work[i].name + "' class='more-info'><h3>More Info</h3>" +
+        "<a href='#'><div id='" + work[i].name + "' class='more-info'><h4>More Info</h4>" +
         "</div></a>" +
         "<div class='project-info'>" +
-        "<h3>" + work[i].name + "</h3>" +
+        "<h4>" + work[i].name + "</h4>" +
         "</div>" +
         "</div>";
     $grid.masonry('layout');
@@ -120,9 +120,9 @@ function projectPopulate(i) {
 }
 
 $(work).each(function (i) {
-    projectPopulate(i)
+    servicesPopulate(i)
 });
-background(".item")
+// background(".item")
 
 // Search through work ----------------------
 $(document).ready(function (event) {
@@ -134,7 +134,7 @@ $(document).ready(function (event) {
 
             $(work).each(function (i) {
                 if (this.id === "Services") {
-                    projectPopulate(i)
+                    servicesPopulate(i)
                     background(".item")
 
                 }
@@ -149,7 +149,7 @@ $(document).ready(function (event) {
 
             $(work).each(function (i) {
                 if (this.id === "logo") {
-                    projectPopulate(i)
+                    servicesPopulate(i)
                     background(".Media")
                 }
             })

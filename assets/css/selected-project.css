@@ -5,7 +5,8 @@
     width: 100vw;
     right: 100vw;
     overflow: hidden;
-    background: url("../media/background.png")
+    background: url("../media/background.png");
+    background-size: cover;
 }
 
 hr {

@@ -127,7 +127,7 @@ $(work).each(function (i) {
 // Search through work ----------------------
 $(document).ready(function (event) {
 
-    $("#services").on("click", function () {
+    $(".services-btn").on("click", function () {
         // remove current items
         $(".grid").fadeOut(500, function () {
             $(".grid").html("");
@@ -143,7 +143,7 @@ $(document).ready(function (event) {
         $(".grid").fadeIn(300)
 
     });
-    $("#media").on("click", function () {
+    $(".media-btn").on("click", function () {
         $(".grid").fadeOut(500, function () {
             $(".grid").html("");
 

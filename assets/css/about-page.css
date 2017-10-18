@@ -1,10 +1,5 @@
 .about {
-    position: absolute;
-    z-index: 5;
-    height: 100%;
-    width: 100vw;
-    left: 100vw;
-    overflow: hidden;
+    height: 90vh;
     background: url("../media/ConstitutionBackground.png");
     background-size: cover;
   }

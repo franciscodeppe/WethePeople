@@ -12,6 +12,17 @@ html {
   overflow-x: hidden;
   height: 100%;
 }
+.col {
+  padding: 0px;
+}
+.col-lg-2 {
+  background-color: #444;
+  height: 100%;
+}
+.main {
+  height: 100vh;
+  overflow: hidden;
+}
 a:hover {
   text-decoration: none;
 }
@@ -20,12 +31,15 @@ p {
 }
 .nav-column {
   padding-left: 30px;
+  padding-right: 20px;
+  height: 100vh;
+  color: white;
 }
 .nav>a {
   margin: 15px;
   font-size: 20px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 a>hr {
   margin: -2px;
@@ -53,10 +67,9 @@ a>hr {
   min-width: 80px;
 }
 .right-column {
-  padding-top: 30px;
-  padding-bottom: 25px;
   min-height: 92vh;
-  overflow: -webkit-paged-x;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 .icons {
   margin: auto;
@@ -70,7 +83,7 @@ i:hover {
 }
 
 .bottom-info {
-  background-color: #444;
+  background-color: #222;
   color: white;
   display: flex;
   flex-direction: column;

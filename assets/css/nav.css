@@ -8,3 +8,15 @@
 .ml-auto {
     margin-right: 200px;
 }
+.services-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.service-btn {
+    margin: 0px 20px 0px 20px;
+}
+.media-btn {
+    margin: 0px 20px 0px 20px;
+}

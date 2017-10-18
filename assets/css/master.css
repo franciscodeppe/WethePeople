@@ -12,43 +12,6 @@ html {
   overflow-x: hidden;
   height: 100%;
 }
-.col {
-  padding: 0px;
-}
-.col-lg-2 {
-  background-color: #444;
-  height: 100%;
-}
-.main {
-  height: 100vh;
-  overflow: hidden;
-}
-a:hover {
-  text-decoration: none;
-}
-p {
-  font-family: 'Lato', sans-serif;
-}
-.nav-column {
-  padding-left: 30px;
-  padding-right: 20px;
-  height: 100vh;
-  color: white;
-}
-.nav>a {
-  margin: 15px;
-  font-size: 20px;
-  text-decoration: none;
-  color: white;
-}
-a>hr {
-  margin: -2px;
-  height: 1px;
-  background-color: #444;
-  width: 0px;
-  transition: width 0.5s ease-in-out;
-}
-
 .nav-column>p {
   font-size: 15px;
   margin: -1px;

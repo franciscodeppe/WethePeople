@@ -4,20 +4,19 @@ html, body {
 }
 .testimonial-section {
     height: 600px;
-    background-color: black;
+    background-color: #222;
     width: 100%;
+    overflow: hidden;
 }
 .testimonials {
     position: absolute;
-    left: 50%;
+    left: 60%;
     top: 100px;
     color: #D4D4D4;
     width: 550px;
 }
 .banner-image {
-    height: 100%;
     display: block;
-    margin: auto;
     opacity: .5;
 }
 .about {

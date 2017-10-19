@@ -2,8 +2,8 @@
     position: absolute;
     z-index: 5;
     height: 100%;
-    width: 100vw;
-    right: 100vw;
+    width: 50vw;
+    left: 100vw;
     overflow: hidden;
     background-color: black;
 }

@@ -85,6 +85,24 @@ var work = [{
     },
 ]
 
+let media = [{
+    title: "Video 1",
+    description: "Video 1 Descrip.",
+    source: "https://www.youtube.com/embed/J5b_-TZwQ0I",
+}, {
+    title: "Video 2",
+    description: "Video 2 Descrip.",
+    source: "https://www.youtube.com/embed/J5b_-TZwQ0I",
+}, {
+    title: "Video 3",
+    description: "Video 3 Descrip.",
+    source: "https://www.youtube.com/embed/J5b_-TZwQ0I",
+}, {
+    title: "Video 4",
+    description: "Video 4 Descrip.",
+    source: "https://www.youtube.com/embed/J5b_-TZwQ0I",
+}]
+
 
 
 function servicesPopulate(i) {
@@ -127,10 +145,20 @@ $(document).ready(function (event) {
         $(".grid").fadeOut(500, function () {
             $(".grid").html("");
 
-            $(work).each(function (i) {
-                if (this.id === "logo") {
-                    servicesPopulate(i)
-                }
+            $(media).each(function (i) {
+                var mediaContainer = 
+                "<div class='media-container row'>" +
+                        "<div class='media-description col-lg-4'>" +
+                            "<h3>" + media[i].title + "</h3>" +
+                            "<p>" + media[i].description + "</p>" +
+                        "</div>" +
+                        "<div class='col-lg-8'>" +
+                            "<iframe class='video' width='450' height='285' src=" + media[i].source + "></iframe>" +
+                        "</div>" +
+                    "</div>";
+
+                $grid.append(mediaContainer);
+
             })
         })
         $(".grid").fadeIn(300)

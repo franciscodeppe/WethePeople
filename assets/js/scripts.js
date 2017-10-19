@@ -196,13 +196,13 @@ $(document).ready(function (event) {
         $(work).each(function (i) {
             if (id === work[i].name) {
                 selectedProject(i)
-                $(".services").css("display", "none")
+                // $(".services").css("display", "none")
             }
         })
 
 
         $(".project-page").stop().animate({
-            "left": "50vw",
+            "left": "45vw",
 
         }, 500);
         $(".project-page").css("overflow", "visible")
@@ -212,10 +212,14 @@ $(document).ready(function (event) {
                 "left": "100vw",
             }, 500)
             $(".project-page").css("overflow", "hidden")
-            $(".services").css("display", "block")
+            // $(".services").css("display", "block")
             event.preventDefault();
         });
         event.preventDefault();
     })
 
 })
+
+let apiKeyMaps = "AIzaSyB0d-uvMal6AdDaqdbwBBHEBkz989Gu-ZQ"
+
+let queryURL = "https://maps.googleapis.com/maps/api/streetview?size=600x300&location=46.414382,10.013988&heading=151.78&pitch=-0.76&" + "key=AIzaSyCgAvO7wm6LXIOeZM3kHtGcJXsynEZSWhU"

@@ -3,7 +3,7 @@ html, body {
     overflow-x: hidden;
 }
 .testimonial-section {
-    height: 600px;
+    height: 300px;
     background-color: #222;
     width: 100%;
     overflow: hidden;
@@ -11,7 +11,7 @@ html, body {
 .testimonials {
     position: absolute;
     left: 60%;
-    top: 100px;
+    top: 30px;
     color: #D4D4D4;
     width: 550px;
 }
@@ -28,13 +28,7 @@ html, body {
     margin-left: 100px;
     margin-right: 100px;
     height: 100%;
-}
-.contact {
-    height: 500px;
-    border: 1px solid black;
-    background-color: white;
-    border-radius: 5px;
-
+    overflow: hidden;
 }
 .navbar-brand {
     margin-left: 200px;

@@ -1,8 +1,7 @@
 .project-page {
     position: absolute;
     z-index: 5;
-    height: 100%;
-    width: 50vw;
+    width: 60vw;
     left: 100vw;
     overflow: hidden;
     background-color: black;
@@ -14,10 +13,6 @@ hr {
     margin: 0px 10px 25px 0px;
 }
 
-table {
-    font-family: 'Rokkitt', serif;
-    width: 100%;
-}
 
 .selected-project {
     display: flex;

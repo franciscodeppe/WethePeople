@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/nav.css">
     <link rel="stylesheet" href="assets/css/projects.css">
     <link rel="stylesheet" href="assets/css/selected-service.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
@@ -35,13 +36,13 @@
                     <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#about">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Media</a>
+                    <a class="nav-link" href="#about">Media</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -55,16 +56,15 @@
             </div>
         </div>
     </div>
-    <div class="project-page">
-        <div class="row">
-            <div class="return-div">
-                <button class="back">Home</button>
+    <div id="about" class="about-services">
+        <div class="project-page">
+            <div class="row">
+                <div class="return-div">
+                    <button class="back">Home</button>
+                </div>
             </div>
+            <div class="selected-project"></div>
         </div>
-        <div class="selected-project"></div>
-    </div>
-
-    <div class="about-services">
         <div class="row">
 
             <div class="col-lg-5 col-xs-12 about">
@@ -101,8 +101,43 @@
             </div>
         </div>
     </div>
-    <div class="contact">
-        Add More
+    <div id="contact" class="row">
+        <div class="contact">
+            <div class="col-lg-4">
+                <h1 class="contact-title">Contact</h1>
+                <div class="form-area">
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+                            <span class="help-block">
+                        </div>
+                        <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-4 map-div">
+                <h3>Burbank</h3>
+                <iframe width="500" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Armet%20Davis%20Newlove&key=AIzaSyB0d-uvMal6AdDaqdbwBBHEBkz989Gu-ZQ"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-4 map-div">
+                <h3>Long Beach</h3>
+                <iframe width="500" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Armet%20Davis%20Newlove&key=AIzaSyB0d-uvMal6AdDaqdbwBBHEBkz989Gu-ZQ"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

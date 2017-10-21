@@ -106,7 +106,7 @@ let media = [{
 
 
 function servicesPopulate(i) {
-    var projectContainer = "<div class='item " + work[i].id + "'>" +
+    var projectContainer = "<div class='service " + work[i].id + "'>" +
         "<a href='#/'><div id='" + work[i].name + "' class='more-info'><h4>More Info</h4>" +
         "</div></a>" +
         "<div class='project-info'>" +
@@ -127,7 +127,7 @@ $(work).each(function (i) {
 $(document).ready(function (event) {
 
     $(".services-btn").on("click", function () {
-        // remove current items
+        // remove current services
         $(".grid").fadeOut(500, function () {
             $(".grid").html("");
 
@@ -179,12 +179,12 @@ $(document).ready(function (event) {
 
 
     // Project Hover - transition and link
-    $(document).on("mouseenter", ".item", function () {
+    $(document).on("mouseenter", ".service", function () {
         $(this).find("div.more-info").animate({
             "height": "60px",
         }, 400)
     });
-    $(document).on("mouseleave", ".item", function () {
+    $(document).on("mouseleave", ".service", function () {
         $(this).find("div.more-info").animate({
             "height": "0px",
         }, 400)

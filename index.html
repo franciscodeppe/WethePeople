@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/services.css">
@@ -16,9 +17,10 @@
     <link rel="stylesheet" href="assets/css/projects.css">
     <link rel="stylesheet" href="assets/css/selected-service.css">
     <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/testimonials.css">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <title>Document</title>
 </head>
@@ -48,11 +50,33 @@
         </div>
     </nav>
     <div class="row">
-        <div class="col testimonial-section">
+        <div class="col-lg-12 testimonial-section">
             <img class="banner-image" src="assets/media/ConstitutionBackground.png" alt="">
-            <div class="testimonials">
-                <h2>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quam esse, enim, ab magni, amet eaque officia
-                    quaerat consequuntur velit explicabo distinctio ducimus nam. Nemo totam libero ea eum nostrum."</h2>
+            <div class="testimonials col-lg-4">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <p>Testimonia 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio excepturi magnam
+                                vero voluptatem pariatur maxime sint molestiae et fugiat. Saepe, repellat. Magnam ipsam odit
+                                laboriosam non possimus. Repellendus, soluta eius?</p>
+                        </div>
+
+                        <div class="item">
+                            <p>Testimonia 2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio excepturi magnam
+                                vero voluptatem pariatur maxime sint molestiae et fugiat. Saepe, repellat. Magnam ipsam odit
+                                laboriosam non possimus. Repellendus, soluta eius?</p>
+                        </div>
+
+                        <div class="item">
+                            <p>Testimonia 3 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio excepturi magnam
+                                vero voluptatem pariatur maxime sint molestiae et fugiat. Saepe, repellat. Magnam ipsam odit
+                                laboriosam non possimus. Repellendus, soluta eius?</p>
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
         </div>
     </div>
@@ -140,8 +164,6 @@
         </div>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/masonry-layout@3/dist/masonry.pkgd.js"></script>
     <script src="https://use.fontawesome.com/3e982e2729.js"></script>
     <script type="text/javascript" src="assets/js/scripts.js"></script>

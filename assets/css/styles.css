@@ -2,23 +2,7 @@ html, body {
     width: 100vw;
     overflow-x: hidden;
 }
-.testimonial-section {
-    height: 300px;
-    background-color: #222;
-    width: 100%;
-    overflow: hidden;
-}
-.testimonials {
-    position: absolute;
-    left: 60%;
-    top: 30px;
-    color: #D4D4D4;
-    width: 550px;
-}
-.banner-image {
-    display: block;
-    opacity: .5;
-}
+
 .about {
     background-color: white;
     margin-top: 50px;

@@ -18,7 +18,7 @@
     opacity: .5;
 }
 .carousel {
-    height: 375px;
+    margin-top: 60px;
 }
 .carousel-inner {
     height: 100%;
